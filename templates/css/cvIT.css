@@ -1,0 +1,120 @@
+#cv-layout {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#layout-header {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-color: #272822;
+    color: #f8f8f2;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+       0.3em 0.3em 1em rgba(0,0,0,0.3), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.profile-table .box-avatar {
+    width: 160px;
+    padding-right: 30px;
+    
+}
+.profile-table .box-avatar img {
+    width: 100%;
+}
+#cv-profile-fullname {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0e2452;
+}
+ .profile-table  tr td .profile-label{
+     width: 105px !important;
+     display: inline-block;
+     font-weight: 700;
+    font-size: normal;
+}
+.cv-profile {
+    padding: 30px 0;
+}
+.cv-block-title {
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #14171d;
+}
+.cv-block-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.cv-block-body {
+    margin-top: 10px;
+}
+.cv-block{
+    margin: 30px 0;
+}
+#education-table {
+    display: flex;
+
+}
+
+.project_title .cv-project-name {
+    margin: 0 !important;
+    margin-top: 20px !important;
+}
+.time-prj {
+    margin-bottom: 10px;
+}
+.project_details  table tr th {
+    padding: 3px;
+}
+.project_details  table tr td {
+    padding: 3px;
+}
+.time {
+   display: flex;
+}
+.cv-education-time,.cv-experience-time,.cv-activity-time,.cv-certification-time-wraper,.cv-award-time-wraper,.skill {
+    min-width: 190px;
+}
+.cv-experience-company,.cv-education-school,.cv-activity-organization,.cv-skillgroup-area {
+    font-weight: 700;
+}
+.cv-profile {
+display: inline-flex;
+    width: 100%;
+}
+.cv-header-right {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+.title {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+    font-weight: 300;
+    padding-left: 7px;
+}
+.cv-profile-name > span {
+    color: #a6e22e;
+    font-size: 32px;
+    line-height: 1em;
+    font-weight: 500;
+    padding-left: 7px;
+}
+.box-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.box-img img {
+    width: 100%;
+}
+.cv-header-left {
+    display: inherit;
+    width: 60%;
+    align-items: center;
+}

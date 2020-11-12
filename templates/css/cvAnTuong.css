@@ -45,16 +45,14 @@
 .cv-profile {
     padding: 30px 0;
 }
-.cv-block-title {
-    margin: 0;
-    padding-bottom: 5px;
-}
+
 .cv-block-title {
     font-size: 16px;
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-
+    margin: 0;
+    padding-bottom: 5px;
 }
 .cv-block-body {
     margin-top: 10px;
@@ -161,12 +159,12 @@ span i {
     margin-left: 5px;
 }
 .cv-profile-left > div {
-    padding: 10px 15px;
+    padding: 5px 15px;
 }
 .cv-profile-phone {
     margin-top: 20px;
 }
-.cv-profile-website i.fas,.cv-profile-phone i.fas ,.cv-profile-email i.fas , .cv-profile-address i.fas {
+.cv-profile-website i.fas,.cv-profile-phone i.fas ,.cv-profile-email i.fas , .cv-profile-address i.fas,.cv-profile-calender i.fas ,.cv-profile-gender i.fas {
     width: 19px;
     height: 19px;
     color: #fff;
@@ -179,6 +177,7 @@ span i {
     font-size: 12px;
     line-height: 20px;
 }
+
 .cv-block-title i.fas {
     width: 40px;
     height: 40px;
@@ -197,6 +196,10 @@ span i {
     color : #fff;
     font-size: 12px;
 }
+.cv-des1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
 .cv-profile-avatar img {
     width: 100%;
 }
@@ -206,4 +209,45 @@ span i {
     height: 170px;
     border-radius: 50%;
     overflow: hidden;
+}
+.cv-name {
+    margin-top: 20px;
+    font-size: 42px;
+    line-height: 46px;
+    display: inline-block;
+    width: 500px;
+    text-shadow: -2px 2px #a6a7a8;
+    font-weight: 700;
+}
+.header-top {
+    width: 100%;
+    min-height: 60px;
+    background-color: #7c7a79;
+    color: #fcf8e0;
+    text-align: right;
+    padding: 3px 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #414142;
+}
+.cv-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: italic;
+}
+.line {
+    display: inline-block;
+    width: 420px;
+    height: 2px;
+    background: black;
+    /* margin: auto; */
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.line {
+    margin-top: 22px;
+    width: 420px;
+    height: 2px;
+    background: black;
 }
