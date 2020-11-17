@@ -1,0 +1,140 @@
+#cv-layout {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#layout-header {
+    width: 100%;
+    padding: 50px;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+       0.3em 0.3em 1em rgba(0,0,0,0.3), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.profile-table .box-avatar {
+    width: 160px;
+    padding-right: 30px;
+    
+}
+.profile-table .box-avatar img {
+    width: 100%;
+}
+#cv-profile-fullname {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0e2452;
+}
+ .profile-table  tr td .profile-label{
+     width: 105px !important;
+     display: inline-block;
+     font-weight: 700;
+    font-size: normal;
+}
+/* .cv-profile {
+    padding: 30px 0;
+} */
+.cv-block-title {
+    margin: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #14171d;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #246b81;
+}
+
+.cv-block-body {
+    margin-top: 10px;
+}
+.cv-block{
+    margin: 30px 0;
+}
+#education-table {
+    display: flex;
+
+}
+
+.project_title .cv-project-name {
+    margin: 0 !important;
+    margin-top: 20px !important;
+}
+.time-prj {
+    margin-bottom: 10px;
+}
+.project_details  table tr th {
+    padding: 3px;
+}
+.project_details  table tr td {
+    padding: 3px;
+}
+.time {
+   display: flex;
+}
+.cv-education-time,.cv-experience-time,.cv-activity-time,.cv-certification-time-wraper,.cv-award-time-wraper,.skill {
+    min-width: 190px;
+}
+.cv-experience-company,.cv-education-school,.cv-activity-organization,.cv-skillgroup-area {
+    font-weight: 700;
+}
+.box-avatar {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #246b81;
+}
+.box1 {
+    width: 155px;
+    height: 155px;
+    padding: 6px;
+    border-radius: 50%;
+    border: 4px solid #246b81;
+}
+.info {
+    display: flex;
+}
+.box {
+    display: flex;
+}
+.cv-profile-name .title {
+    display: flex;
+    padding: 10px;
+    color: #246b81;
+    border-bottom: 4px solid #246b81;
+}
+.cv-profile-name {
+    padding: 5px 0;
+    width: 80%;
+    margin-top:20px;
+}
+.title span {
+    margin: auto;
+}
+.title .name {
+    font-size: 26px;
+    line-height: 1em;
+    width: 330px;
+    font-weight: 500;
+    bottom: 6px;
+}
+.cv-profile-website i.fas,.cv-profile-phone i.fas ,.cv-profile-email i.fas , .cv-profile-address i.fas,.cv-profile-calender i.fas ,.cv-profile-gender i.fas {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
+.info-details {
+    margin: 10px;
+}
+.info-details div {
+    margin-bottom: 5px;
+}
+#certification-table .time ,#award-table .time {
+    display: block;
+}

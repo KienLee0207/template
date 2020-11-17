@@ -141,18 +141,6 @@ span i {
  .cv-profile-name span {
     font-size: 22px !important;
  }
-/* cv-profile-left i {
-    padding: 5px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #fff;
-} . */
-/* .cv-profile-phone i ,.cv-profile-email i , .cv-profile-address i{
-        padding: 5px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #fff;
-} */
 .cv-profile-left span {
     color: #fff;
     font-size: 12px;
