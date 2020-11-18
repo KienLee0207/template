@@ -118,7 +118,7 @@
     font-weight: 500;
     bottom: 6px;
 }
-.cv-profile-website i.fas,.cv-profile-phone i.fas ,.cv-profile-email i.fas , .cv-profile-address i.fas,.cv-profile-calender i.fas ,.cv-profile-gender i.fas {
+.cv-profile-website i.fas,.cv-profile-phone i.fas ,.cv-profile-email i.fas , .cv-profile-address i.fas,.cv-profile-calender i.fas ,.cv-profile-gender i.fas,.cv-profile-date i {
     width: 19px;
     height: 19px;
     border-radius: 50%;

@@ -1,16 +1,16 @@
 #cv-layout {
-    max-width: 800px;
+    width: 800px;
     margin: 0 auto;
     margin-top: 30px;
 }
 #layout-header {
     width: 100%;
-    padding: 15px;
-    font-family: 'Roboto Mono', monospace;
-}
-#cv-layout {
-    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0.3em 0.3em 1em rgba(0,0,0,0.3), 0 0 0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3);
-
+    padding: 50px;
+    box-shadow: 
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+       0.3em 0.3em 1em rgba(0,0,0,0.3), 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
 .profile-table .box-avatar {
     width: 160px;
@@ -31,22 +31,26 @@
      font-weight: 700;
     font-size: normal;
 }
+.cv-profile {
+    padding: 30px 0;
+    border-bottom: 1px solid;
+}
 .cv-block-title {
     margin: 0;
     padding-bottom: 5px;
+    text-align: center;
 }
 .cv-block-title {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 10px;
+
 }
 .cv-block-body {
     margin-top: 10px;
 }
 .cv-block{
     margin: 30px 0;
-    padding: 20px;
 }
 #education-table {
     display: flex;
@@ -67,51 +71,39 @@
     padding: 3px;
 }
 .time {
-    display: flex;
+   display: flex;
 }
 .cv-education-time,.cv-experience-time,.cv-activity-time,.cv-certification-time-wraper,.cv-award-time-wraper,.skill {
     min-width: 190px;
 }
-.cv-experience-company,.cv-education-school,.cv-activity-organization,.cv-skillgroup-area {
+.cv-experience-company,.cv-education-school,.cv-activity-organization{
     font-weight: 700;
 }
-.box-avatar {
-    width: 135px;
-    height: 135px;
-    border-radius: 50%;
-    overflow: hidden;
+.project_title .cv-project-name {
+    margin: 0 !important;
+    margin-top: 20px !important;
+}
+.time-prj {
+    margin-bottom: 10px;
+}
+.project_details  table tr th {
+    padding: 3px;
+}
+.project_details  table tr td {
+    padding: 3px;
 }
 .cv-profile {
- background: #556e8e;
+    text-align: center;
 }
-.cv-profile-name {
-    margin: auto;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 1.2em;
+.cv-profile h1 {
+    font-size: 22px;
 }
-.title span {
-    font-size: 20px;
-    line-height: 1em;
-    padding-left: 5px;
-    padding-top: 4px;
-    color: #fff;
+.cv-experience-position,.cv-activity-position {
+    font-style: italic;
 }
-.info span {
-    width: 30%;
-    display: inline-block;
-    text-align: right;
+span i {
+    margin: 0 5px 0px 10px
 }
-.skill {
-    margin-bottom: 10px;
-}
-#skill-table .item {
-    margin-bottom: 10px;
-}
-.cv-profile .box {
-    display: flex;
-    padding: 25px 50px;
-}
-.info ,.cv-profile-name{
-    color: #fff;
+.company {
+    margin-bottom: 20px;
 }
