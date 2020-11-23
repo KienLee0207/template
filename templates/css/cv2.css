@@ -1,4 +1,3 @@
-
 #cv-layout {
     width: 800px;
     margin: 0 auto;
@@ -7,32 +6,32 @@
     font-family: 'Goldman', cursive;
 }
 
-.cv-profile-left {
-    max-width: 240px;
-    padding-top: 160px;
-    background-color:#37474f;
-}
 .cv-profile-right {
+    max-width: 240px;
+    background-color: #37474f;
+}
+
+.cv-profile-left {
     padding: 0 20px;
-    padding-top: 160px;
     padding-bottom: 5px;
     margin-bottom: 15px;
-
 }
+
+.cv-profile-right {
+    padding: 15px;
+}
+
 #layout-header {
     width: 100%;
     display: flex;
-    box-shadow: 
-       inset 0 -3em 3em rgba(0,0,0,0.1),
-       0.3em 0.3em 1em rgba(0,0,0,0.3), 
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
+
 .profile-table .box-avatar {
     width: 160px;
     padding-right: 30px;
-    
 }
+
 .profile-table .box-avatar img {
     width: 100%;
 }
@@ -40,14 +39,16 @@
 #cv-profile-fullname {
     font-size: 26px;
     font-weight: bold;
-    color: #f5da42;
+    color: #269ceb;
 }
- .profile-table  tr td .profile-label{
-     width: 105px !important;
-     display: inline-block;
-     font-weight: 700;
+
+.profile-table tr td .profile-label {
+    width: 105px !important;
+    display: inline-block;
+    font-weight: 700;
     font-size: normal;
 }
+
 .cv-profile {
     padding: 30px 0;
 }
@@ -60,98 +61,134 @@
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
+
 .cv-block-title span {
     padding-bottom: 5px;
-    border-bottom: 2px solid #f5da42
+    border-bottom: 2px solid #269ceb
 }
+
 .cv-block-body {
     margin-top: 10px;
 }
-.cv-block{
+
+.cv-block {
     margin: 30px 0;
 }
+
 #education-table {
     display: flex;
-
 }
+
 .time .title {
     width: 78%;
 }
+
 .project_title .cv-project-name {
     margin: 0 !important;
     margin-top: 20px !important;
 }
+
 .time-prj {
     margin-bottom: 10px;
 }
-.project_details  table tr th {
+
+.project_details table tr th {
     padding: 3px;
 }
-.project_details  table tr td {
+
+.project_details table tr td {
     padding: 3px;
 }
+
+
 /* .time {
    display: flex;
 } */
+
+
 /* .cv-education-time,.cv-experience-time,.cv-activity-time,.cv-certification-time-wraper,.cv-award-time-wraper,.skill {
     min-width: 190px;
 } */
+
+
 /* .cv-education-school,.cv-experience-company{
     margin-right: 290px;
 } */
-.cv-education-time span,.cv-experience-time span{
+
+.cv-education-time span,
+.cv-experience-time span {
     font-size: 12px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 }
+
 .cv-experience-time {
     width: 22%;
 }
-.cv-experience-company,.cv-education-school,.cv-activity-organization{
+
+.cv-experience-company,
+.cv-education-school,
+.cv-activity-organization {
     font-weight: 700;
 }
+
 .project_title .cv-project-name {
     margin: 0 !important;
     margin-top: 20px !important;
 }
+
 .time-prj {
     margin-bottom: 10px;
 }
-.project_details  table tr th {
+
+.project_details table tr th {
     padding: 3px;
 }
-.project_details  table tr td {
+
+.project_details table tr td {
     padding: 3px;
 }
+
 .cv-profile {
     text-align: center;
 }
+
 .cv-profile h1 {
     font-size: 22px;
 }
-.cv-experience-position,.cv-activity-position {
+
+.cv-experience-position,
+.cv-activity-position {
     font-style: italic;
 }
+
 span i {
     margin: 0 5px 0px 10px
 }
+
 .company {
     margin-bottom: 20px;
 }
-.cv-profile-name  {
+
+.cv-profile-name {
     display: flex;
 }
-.cv-profile-left span {
+
+.cv-profile-right span {
     color: #fff;
     font-size: 12px;
 }
-.cv-profile-left > div {
-    padding: 5px 15px;
-}
+
 .cv-profile-phone {
     margin-top: 20px;
 }
-.cv-profile-website i.fas,.cv-profile-phone i.fas ,.cv-profile-email i.fas , .cv-profile-address i.fas,.cv-profile-calender i.fas ,.cv-profile-gender i.fas {
+
+.cv-profile-website i.fas,
+.cv-profile-phone i.fas,
+.cv-profile-email i.fas,
+.cv-profile-address i.fas,
+.cv-profile-calender i.fas,
+.cv-profile-gender i.fas {
     width: 19px;
     height: 19px;
     color: #fff;
@@ -178,57 +215,72 @@ span i {
     line-height: 40px;
     border-radius: 50%;
 }
-.cv-profile-email span , .cv-profile-website span , .cv-profile-address span {
+
+.cv-profile-right .box-avatar {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: 2px solid #269ceb;
+    padding: 6px;
+    margin: auto;
+}
+
+.cv-profile-email span,
+.cv-profile-website span,
+.cv-profile-address span {
     word-break: break-all
 }
+
 .cv-des {
-    color : #fff;
+    color: #fff;
     font-size: 12px;
 }
-.cv-des1{
+
+.cv-des1 {
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
+
 .cv-profile-avatar img {
     width: 100%;
     height: 100%;
 }
+
 .cv-profile-avatar {
-    width: 102%;
+    width: 150px;
     margin: auto;
-    /* height: 170px; */
-    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 150px;
 }
+
 .cv-profile-name p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
+
 .cv-profile-name span {
     font-weight: 600;
 }
+
 .cv-profile-name .name {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
 }
-.cv-profile-name {
-    top: 30px;
-    left: 30px;
-    width: 650px;
-    height: 130px;
-    position: absolute;
-    background: #f5da42;
-}
+
 .des {
     padding: 20px;
 }
-.cv-profile-left h3 span{
+
+.cv-profile-right h3 span {
     padding-bottom: 5px;
-    border-bottom: 2px solid #f5da42;
+    border-bottom: 2px solid #269ceb;
 }
+
 .cv-name {
     margin-top: 20px;
     font-size: 42px;
@@ -238,6 +290,7 @@ span i {
     text-shadow: -2px 2px #a6a7a8;
     font-weight: 700;
 }
+
 .header-top {
     width: 100%;
     min-height: 60px;
@@ -250,11 +303,13 @@ span i {
     margin-bottom: 0;
     border-bottom: 2px solid #414142;
 }
+
 .cv-title {
     text-transform: uppercase;
     font-size: 14px;
     font-style: italic;
 }
+
 .line {
     display: inline-block;
     width: 420px;
@@ -263,4 +318,18 @@ span i {
     /* margin: auto; */
     margin-bottom: 5px;
     margin-left: 5px;
+}
+
+.ex {
+    position: relative;
+    height: 8px;
+    background: #bbbbbb;
+}
+
+.ex span {
+    position: absolute;
+    display: block;
+    width: 80%;
+    background: #269ceb;
+    height: 100%;
 }
