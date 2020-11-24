@@ -1,24 +1,19 @@
 #cv-layout {
     width: 800px;
     margin: 0 auto;
-    position: relative;
     margin-top: 30px;
     font-family: 'Goldman', cursive;
 }
 
-.cv-profile-right {
+.cv-profile-left {
     max-width: 240px;
     background-color: #37474f;
 }
 
-.cv-profile-left {
+.cv-profile-right {
     padding: 0 20px;
     padding-bottom: 5px;
     margin-bottom: 15px;
-}
-
-.cv-profile-right {
-    padding: 15px;
 }
 
 #layout-header {
@@ -39,7 +34,7 @@
 #cv-profile-fullname {
     font-size: 26px;
     font-weight: bold;
-    color: #269ceb;
+    color: #328da8;
 }
 
 .profile-table tr td .profile-label {
@@ -64,7 +59,7 @@
 
 .cv-block-title span {
     padding-bottom: 5px;
-    border-bottom: 2px solid #269ceb
+    border-bottom: 2px solid #328da8
 }
 
 .cv-block-body {
@@ -170,13 +165,17 @@ span i {
     margin-bottom: 20px;
 }
 
-.cv-profile-name {
-    display: flex;
+.cv-profile-avatar {
+    width: 110px;
 }
 
-.cv-profile-right span {
+.cv-profile-left span {
     color: #fff;
     font-size: 12px;
+}
+
+.cv-profile-left>div {
+    padding: 5px 15px;
 }
 
 .cv-profile-phone {
@@ -191,7 +190,7 @@ span i {
 .cv-profile-gender i.fas {
     width: 19px;
     height: 19px;
-    color: #fff;
+    color: #328da8;
     background-color: #7c7a79;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -202,6 +201,7 @@ span i {
     margin-right: 10px;
     margin-bottom: 10px;
     line-height: 20px;
+    background: #fff;
 }
 
 .cv-block-title i.fas {
@@ -214,15 +214,6 @@ span i {
     margin-right: 20px;
     line-height: 40px;
     border-radius: 50%;
-}
-
-.cv-profile-right .box-avatar {
-    width: 165px;
-    height: 165px;
-    border-radius: 50%;
-    border: 2px solid #269ceb;
-    padding: 6px;
-    margin: auto;
 }
 
 .cv-profile-email span,
@@ -246,13 +237,12 @@ span i {
     height: 100%;
 }
 
-.cv-profile-avatar {
-    width: 150px;
+
+/* .cv-profile-avatar {
+    width: 102%;
     margin: auto;
-    border-radius: 50%;
-    overflow: hidden;
-    height: 150px;
-}
+    height: 100%;
+} */
 
 .cv-profile-name p {
     display: -webkit-box;
@@ -272,17 +262,20 @@ span i {
     margin: 0;
 }
 
+
+/* 
+.cv-profile-name {
+    background: #f5da42;
+} */
+
 .des {
-    padding: 20px 0;
+    color: #fff;
+    padding-top: 20px
 }
 
-.des p {
-    margin-top: 20px;
-}
-
-.cv-profile-right h3 span {
+.cv-profile-left h3 span {
     padding-bottom: 5px;
-    border-bottom: 2px solid #269ceb;
+    border-bottom: 2px solid #328da8;
 }
 
 .cv-name {
